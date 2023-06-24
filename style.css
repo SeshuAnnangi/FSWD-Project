@@ -108,3 +108,104 @@ button:hover span{
 button:hover{
      border: none;
 }
+
+
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color:black;
+}
+  
+.box{
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+  
+  
+.box-img{
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+  
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+  
+.box-content{
+  color: black;
+}
+  
+
+  /*footer*/
+.footer{
+  margin-top: 15px;
+}
+  
+.foot-panel1{
+   background-color: black;
+   color: white;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1rem;
+}
+
+.foot-panel1::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.5s;
+}
+
+.foot-panel1:hover:after{
+    width: 100%;
+}
+
+  .foot-panel2{
+  background-color: #2D4356;
+  color: white;
+  height: 175px;
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+ul{
+  margin-top: 20px;
+}
+  
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+.foot-panel2 p{
+   margin: 10px;
+   margin-left: 10px;
+}
+
+.foot-panel3{
+    height: 20px;
+    background-color: #2D4356;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 5px;
+}
